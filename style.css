@@ -1,0 +1,159 @@
+/* body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F3EA;
+  color: #5C5243;
+  line-height: 1.6;
+}
+
+.hero {
+  background-color: #A3B18A;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.cta-button {
+  background-color: #D9A26D;
+  color: white;
+  padding: 12px 24px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.section.alt {
+  background-color: #DAD7CD;
+}
+
+.section h2 {
+  color: #5C5243;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #A3B18A;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.socials p {
+  margin: 10px 0 0;
+} */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #F5F3EA;
+  color: #5C5243;
+}
+
+/* HERO З КАРТИНКОЮ */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('header.jpg') center/cover no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.hero .hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 90%;
+}
+
+.cta-button {
+  background-color: #D9A26D;
+  color: white;
+  padding: 12px 24px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* ОСНОВНІ СЕКЦІЇ */
+.section {
+  padding: 60px 20px;
+}
+
+.section.alt {
+  background-color: #DAD7CD;
+}
+
+/* КАРУСЕЛЬ */
+.carousel-section {
+  background: #f5f3ea;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.carousel img {
+  height: 250px;
+  border-radius: 10px;
+}
+
+/* ОРГАНІЗАТОРИ */
+.organizers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.organizer {
+  max-width: 200px;
+  text-align: center;
+}
+
+.organizer img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #A3B18A;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
