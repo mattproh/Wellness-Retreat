@@ -20,6 +20,15 @@ ul li::marker {
   font-size: 1.2em; /* Розмір */
 }
 
+ul {
+  padding-left: 20px;
+  list-style-position: outside;
+}
+ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
 
 /* HERO З КАРТИНКОЮ */
 .hero {
